@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/TextBemVindo"
-        android:text="Bem - Vindo"
+        android:text="Bem-Vindo"
         android:textColor="@color/white"
         android:textSize="50sp"
         android:layout_marginTop="40dp"
@@ -149,9 +149,21 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/home_svg"
-                    android:padding="40dp"/>
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="50dp"
+                    android:src="@drawable/lupa_svg"
+                    android:layout_weight="5"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pesquisar"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_weight="3"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -173,9 +185,21 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/configuracoes_svg"
-                    android:padding="40dp"/>
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="50dp"
+                    android:src="@drawable/contatos_svg"
+                    android:layout_weight="5"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contatos"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_weight="3"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -197,13 +221,25 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/home_svg"
-                    android:padding="40dp"/>
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="50dp"
+                    android:src="@drawable/relogio_svg"
+                    android:layout_weight="5"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Agenda"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_weight="3"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!--CardView [2] [2]-->
+        <!--CardView [2] [1]-->
         <androidx.cardview.widget.CardView
             android:layout_width="150dp"
             android:layout_height="150dp"
@@ -221,9 +257,21 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/configuracoes_svg"
-                    android:padding="40dp"/>
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="50dp"
+                    android:src="@drawable/log_out_svg"
+                    android:layout_weight="5"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Logout"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_weight="3"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
     </GridLayout>
