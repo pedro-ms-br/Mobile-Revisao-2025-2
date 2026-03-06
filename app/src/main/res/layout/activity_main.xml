@@ -28,7 +28,7 @@
 
 
         <EditText
-            android:id="@+id/editText_email_input"
+            android:id="@+id/editTextEmailInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Login"
@@ -42,7 +42,7 @@
             />
 
         <EditText
-            android:id="@+id/editText_senha_input"
+            android:id="@+id/editTextSenhaInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Senha"
@@ -55,7 +55,7 @@
             android:layout_marginTop="32dp"/>
 
         <Button
-            android:id="@+id/button_confirmacao_login"
+            android:id="@+id/buttonConfirmacaoLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
